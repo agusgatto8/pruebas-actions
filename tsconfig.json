@@ -1,0 +1,28 @@
+{
+    "ts-node": {
+      "compilerOptions": {
+        "module": "commonjs"
+      }
+    },
+    "compilerOptions": {
+      "target": "ES6",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "types": ["node", "webdriverio/async", "@wdio/jasmine-framework", "@wdio/types"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": false,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react",
+      "baseUrl": ".",
+      "typeRoots": ["./node_modules/@types", "./src/types", "./node_modules"]
+    },
+    "include": ["src", "test"]
+  }
